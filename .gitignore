@@ -1,0 +1,16 @@
+config/vllm.env
+vllm.env
+.env
+.env.*
+!.env.example
+run/
+*.log
+*.out
+*.err
+slurm-*.out
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.huggingface/
